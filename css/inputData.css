@@ -1,0 +1,23 @@
+.inputData {
+    display: flex;
+    flex-direction: column;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    align-items: center;
+}
+
+.inputData>p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input{
+    width: 100%;
+    border-radius: 6px;   
+}
+
+input, textarea {
+    background-color: #e0e0e0; 
+}

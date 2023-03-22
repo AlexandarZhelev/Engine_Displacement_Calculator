@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+
+.title {
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 4px #000000
+}

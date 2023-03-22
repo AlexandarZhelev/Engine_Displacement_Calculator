@@ -1,0 +1,22 @@
+@import url(./inputData.css);
+@import url(./title.css);
+
+body{
+    background: rgb(0,5,36);
+    background: linear-gradient(90deg, rgba(0,5,36,1) 0%, rgba(6,100,113,1) 50%, rgba(0,4,68,1) 100%);
+}
+
+.wondow{
+    text-align: center;
+}
+
+p#hint {
+    text-align: center;
+    color: #d6d6d6;
+    margin-top: 50px;
+}
+
+#result{
+    text-align: center;
+    color: #ffffff;
+}

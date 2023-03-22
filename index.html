@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Engine Displacement Calculator
+        </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+        </style>
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="window">
+            <div class="title">
+                <h1>Engine Displacement</h1>
+            </div>
+            <div class="inputData">
+                <p>Bore (mm): <input id='bore' type="number" onchange="CalculateDisplacement()"/></p>
+                <p>Stroke (mm): <input id='stroke' type="number" onchange="CalculateDisplacement()"/></p>
+                <p>Number of cylinders: <input id='cylinders' type="number" onchange="CalculateDisplacement()"/></p>
+            </div>
+
+            <p id="hint">*Click somewhere after entering the data to see the results!</p>
+            <div class="calculation">
+                <h2 id="result"></h2>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
